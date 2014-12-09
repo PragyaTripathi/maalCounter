@@ -1,0 +1,78 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF8800"
+    android:visibility="visible"
+    tools:context=".MenuActivity" >
+
+    <!--
+         The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc.
+    -->
+
+    <!--
+         This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows.
+    -->
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff8800"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:orientation="vertical"
+            android:visibility="visible"
+            tools:ignore="UselessParent" >
+
+            <Button
+                android:id="@+id/buttonStartScoreboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnAddPlayers"
+                android:text="@string/btn_start_scoreboard" />
+
+            <Button
+                android:id="@+id/buttonEditMaal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnEditMaal"
+                android:text="@string/btn_edit_maal" />
+
+            <Button
+                android:id="@+id/buttonHowTo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_how" />
+
+            <Button
+                android:id="@+id/buttonHelp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_help" />
+
+            <Button
+                android:id="@+id/buttonFeedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/feedback" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

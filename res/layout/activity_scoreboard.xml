@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:showDividers="beginning|middle|end" >
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </HorizontalScrollView>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:showDividers="beginning|middle|end" >
+
+    </TableRow>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF8800"
+        android:visibility="visible" >
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView_player1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/CellTitle"
+                android:background="#FFFFFF"
+                android:textIsSelectable="false" />
+			<TextView
+                android:id="@+id/textView_player2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/CellTitle"
+                android:background="#FFFFFF"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/textView_player3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/CellTitle"
+                android:background="#FFFFFF"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/textView_player4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/CellTitle"
+                android:background="#FFFFFF"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/textView_player5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/CellTitle"
+                android:background="#FFFFFF"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/textView_player6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/CellTitle"
+                android:background="#ffffff"
+                android:textIsSelectable="false" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView_player1_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player2_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player3_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player4_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player5_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player6_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView_player1_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player2_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player3_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player4_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player5_17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player6_18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView_player1_19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player2_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player3_21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player4_22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player5_23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player6_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView_player1_25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player2_26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player3_27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player4_28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player5_29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player6_30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView_player1_31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player2_32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player3_33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player4_34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player5_35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+
+            <TextView
+                android:id="@+id/TextView_player6_36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Cell"
+                android:background="#aaaaaa"
+                android:textIsSelectable="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttonAddPoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/add_points"
+                android:onClick="btnAddPoints" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/end_game"
+                android:onClick="endGame" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
