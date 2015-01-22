@@ -140,25 +140,6 @@ AddPointsActivity class- This activity class lets user to add points for a hand 
 
 EditMaalActivity class- This activity class lets the user edit the maal point values and puts the updates values in Points database. This activity's content is activity_edit_maal.xml.
 
-User documentation
-
-1. In the main menu of the app
- 
-4.	If you want to edit maal points, then click on 
-  button. The following page should come up. After you are done changing current point values, click Save. 
-5.	If you now want to start the scoreboard, click on   button.
-6.	It would take you to the page below where you can add names of players. After you are done, scroll down and click on Next button. 
-7.	You should now have an empty scoreboards like below. In order to add points for a add click on Add Points.
- 
-8.	The following page should come up with each player's name.  
-9.	The image below shows all the options that a user can pick. In each category of maal, a user can only pick one. For Example, for Tiplu, a user can only select 1 or 2 but not both. To add points for all users, simply scroll down the page.  After you are done, scroll back on top to click on Save button.
- 
-10.	 The scoreboard should come up like this. 
-11.	If you click on end game, the following message should pop with the winner of this game.
- 
-12.	On clicking OK, you can get back to the main menu. 
-13.	In order to exit from the program, press back button on your android device.
-
 ##Limitations of the current version
 
 Currently, there are certain limitations to this program.
@@ -177,48 +158,3 @@ A user should only be able to click one of these three options.
 6.	If another user has already clicked Completed Game, the other users should not be able to click on it again. However, this functionality has not been implemented.
 
 7.	The multiplier and currency options are not currently available. Although, there is some code in place.
-
-Testing
-Let X1, X2, X3, X4, X5 and X6 be six players. 
-X1 has 1 tiplu, 2 poplu and completed the game.
-Maal points for X1 = 3+5=8
-X2 has nothing but has seen the joker.
-Maal points for X2 = 0
-Game score for X2 = 3
-X3 has 1 marriage and seen the joker.
-Maal points for X3= 10
-game score for X3=3
-X4 has a ordinary card tunnella and not seen the joker.
-Maal points for X4=5
-game score for X4=10
-X5 has 2 jhiplu and seen the joker.
-Maal points for X5= 5
-game score for X5 = 3
-X6 has nothing and not seen the joker.
-Maal points for X6 = 0
-Game score for X6 = 10
-total maal points of all players(P) = 8+0+10+5+5+0=28
-total number of players(n)=6
-According the algorithm above:
-Total points for X2= 6*0-3-28=-31
-Total points for X3=6*10-3-28=29
-Total points for X4=6*5-10-28=-8
-Total points for X5=6*5-3-28=-1
-Total points for X6=6*0-10-28=-38
-Total points for X1= -1*(-31+29-8-1-38)=49
-X1	X2	X3	X4	X5	X6
-49	-31	29	-8	-1	-38
-
-Now putting the maal values illustrated above in the app:
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
-Thus, the app and the algorithm work!
-
